@@ -12,9 +12,9 @@ RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/machi
 # Installs system dependencies.
 RUN apt-get update \
         && apt-get install -y \
-            flex \
-            libcairo2-dev \
-            libboost-all-dev 
+        flex \
+        libcairo2-dev \
+        libboost-all-dev 
 
 
 # Installs system dependencies from conda.
